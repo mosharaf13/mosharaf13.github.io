@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9d90e9bf.chunk.css",
-    "main.js": "/static/js/main.d6b9ceca.chunk.js",
-    "main.js.map": "/static/js/main.d6b9ceca.chunk.js.map",
+    "main.js": "/static/js/main.e574d412.chunk.js",
+    "main.js.map": "/static/js/main.e574d412.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.43a63433.js",
     "runtime-main.js.map": "/static/js/runtime-main.43a63433.js.map",
     "static/js/2.53dbc38d.chunk.js": "/static/js/2.53dbc38d.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.9b07661c.chunk.js": "/static/js/4.9b07661c.chunk.js",
     "static/js/4.9b07661c.chunk.js.map": "/static/js/4.9b07661c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a50e2f04025632a94854a074dd0d66bf.js": "/precache-manifest.a50e2f04025632a94854a074dd0d66bf.js",
+    "precache-manifest.c9660339ab8bb69a25dc8f8b002b0e2b.js": "/precache-manifest.c9660339ab8bb69a25dc8f8b002b0e2b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.c7b31c95.chunk.css.map": "/static/css/3.c7b31c95.chunk.css.map",
     "static/css/4.54df59d4.chunk.css.map": "/static/css/4.54df59d4.chunk.css.map",
@@ -24,7 +24,6 @@
     "static/media/contactMail.webp": "/static/media/contactMail.68e84138.webp",
     "static/media/coursera.png": "/static/media/coursera.a2aab873.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
-    "static/media/facebookLogo.png": "/static/media/facebookLogo.8ddf76a1.png",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.829ad0a1.webp",
@@ -38,6 +37,6 @@
     "static/js/runtime-main.43a63433.js",
     "static/js/2.53dbc38d.chunk.js",
     "static/css/main.9d90e9bf.chunk.css",
-    "static/js/main.d6b9ceca.chunk.js"
+    "static/js/main.e574d412.chunk.js"
   ]
 }
