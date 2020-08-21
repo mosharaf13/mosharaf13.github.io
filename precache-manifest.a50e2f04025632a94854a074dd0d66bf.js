@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ddafde10e89d5e8d92cc7ae3154011e",
+    "revision": "5924b6d1ab6d6eba6250fdf689a762e5",
     "url": "/index.html"
   },
   {
-    "revision": "73c0f63291d6e309a54a",
+    "revision": "2fd7aad7a2c99f6ace5a",
     "url": "/static/css/3.c7b31c95.chunk.css"
   },
   {
-    "revision": "3e36bf893f003af71122",
+    "revision": "1704fabeb708061d2538",
     "url": "/static/css/4.54df59d4.chunk.css"
   },
   {
-    "revision": "bf68b80861559e6135f9",
-    "url": "/static/css/main.b49f3076.chunk.css"
+    "revision": "29bc864907f9e11f74d8",
+    "url": "/static/css/main.9d90e9bf.chunk.css"
   },
   {
-    "revision": "0e880fea45fde1de3ba7",
-    "url": "/static/js/2.20323fbf.chunk.js"
+    "revision": "5583dcdb55680da62cb9",
+    "url": "/static/js/2.53dbc38d.chunk.js"
   },
   {
-    "revision": "73c0f63291d6e309a54a",
-    "url": "/static/js/3.57b7b86d.chunk.js"
+    "revision": "2fd7aad7a2c99f6ace5a",
+    "url": "/static/js/3.fccdf917.chunk.js"
   },
   {
-    "revision": "3e36bf893f003af71122",
-    "url": "/static/js/4.54356fcc.chunk.js"
+    "revision": "1704fabeb708061d2538",
+    "url": "/static/js/4.9b07661c.chunk.js"
   },
   {
-    "revision": "bf68b80861559e6135f9",
-    "url": "/static/js/main.3466e446.chunk.js"
+    "revision": "29bc864907f9e11f74d8",
+    "url": "/static/js/main.d6b9ceca.chunk.js"
   },
   {
-    "revision": "d9784feb3320cbdd6385",
-    "url": "/static/js/runtime-main.36b5e37c.js"
+    "revision": "d5a007ff5cc91734e54a",
+    "url": "/static/js/runtime-main.43a63433.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -62,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ddf76a14a2e3ad3ba62b46d49a75a74",
     "url": "/static/media/facebookLogo.8ddf76a1.png"
-  },
-  {
-    "revision": "e79c639294c805688be731921368c8f8",
-    "url": "/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
     "revision": "25bf045ca257e971124f3997d89f321c",
