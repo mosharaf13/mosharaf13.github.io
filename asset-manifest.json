@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d87c0c8f.chunk.css",
-    "main.js": "/static/js/main.b52d444b.chunk.js",
-    "main.js.map": "/static/js/main.b52d444b.chunk.js.map",
+    "main.css": "/static/css/main.365a3551.chunk.css",
+    "main.js": "/static/js/main.71568629.chunk.js",
+    "main.js.map": "/static/js/main.71568629.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e2b53756.js",
     "runtime-main.js.map": "/static/js/runtime-main.e2b53756.js.map",
     "static/js/2.271199c0.chunk.js": "/static/js/2.271199c0.chunk.js",
@@ -14,11 +14,11 @@
     "static/js/4.ecdedc4f.chunk.js": "/static/js/4.ecdedc4f.chunk.js",
     "static/js/4.ecdedc4f.chunk.js.map": "/static/js/4.ecdedc4f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.96e864ed3c4a44f79e8ae3565c950929.js": "/precache-manifest.96e864ed3c4a44f79e8ae3565c950929.js",
+    "precache-manifest.a680b483b21fa064f49b8a53f6faf3b6.js": "/precache-manifest.a680b483b21fa064f49b8a53f6faf3b6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.c7b31c95.chunk.css.map": "/static/css/3.c7b31c95.chunk.css.map",
     "static/css/4.54df59d4.chunk.css.map": "/static/css/4.54df59d4.chunk.css.map",
-    "static/css/main.d87c0c8f.chunk.css.map": "/static/css/main.d87c0c8f.chunk.css.map",
+    "static/css/main.365a3551.chunk.css.map": "/static/css/main.365a3551.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/contactMail.webp": "/static/media/contactMail.68e84138.webp",
     "static/media/coursera.png": "/static/media/coursera.a2aab873.png",
@@ -26,15 +26,15 @@
     "static/media/hslogo.png": "/static/media/hslogo.22dc9825.png",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
-    "static/media/nextuLogo.webp": "/static/media/nextuLogo.829ad0a1.webp",
-    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.25018d29.webp",
+    "static/media/pixmama_logo.png": "/static/media/pixmama_logo.3fad0aa7.png",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
+    "static/media/smart_construction_logo.png": "/static/media/smart_construction_logo.0149dff6.png",
     "static/media/TalkCard.css": "/static/media/talksCardBack.0288c5ec.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e2b53756.js",
     "static/js/2.271199c0.chunk.js",
-    "static/css/main.d87c0c8f.chunk.css",
-    "static/js/main.b52d444b.chunk.js"
+    "static/css/main.365a3551.chunk.css",
+    "static/js/main.71568629.chunk.js"
   ]
 }
