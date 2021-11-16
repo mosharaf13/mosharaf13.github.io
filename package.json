@@ -1,25 +1,29 @@
 {
-  "name": "mosharaf13.github.io",
-  "version": "1.0.0",
-  "description": "FRONT-END.LV Portfolio",
-  "author": "Emīls Gulbis",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "deploy": "gh-pages -b master -d build",
-    "test": "jest"
-  },
-  "dependencies": {
-    "@nuxtjs/svg": "^0.1.12",
-    "nuxt": "^2.14.7"
-  },
-  "devDependencies": {
-    "@nuxtjs/tailwindcss": "^3.1.0",
-    "node-sass": "^4.14.1",
-    "nuxt-webfontloader": "^1.1.0",
-    "sass-loader": "^10.0.3"
-  }
+    "homepage": "https://mosharaf13.github.io/",
+    "name": "mosharaf13.github.io",
+    "version": "1.0.0",
+    "description": "FRONT-END.LV Portfolio",
+    "author": "Emīls Gulbis",
+    "private": true,
+    "scripts": {
+        "predeploy": "npm run generate",
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "deploy": "push-dir --dir=dist --branch=master --cleanup",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@nuxtjs/svg": "^0.1.12",
+        "nuxt": "^2.14.7",
+        "gh-pages": "^2.2.0"
+    },
+    "devDependencies": {
+        "@nuxtjs/tailwindcss": "^3.1.0",
+        "node-sass": "^4.14.1",
+        "nuxt-webfontloader": "^1.1.0",
+        "push-dir": "^0.4.1",
+        "sass-loader": "^10.0.3"
+    }
 }
