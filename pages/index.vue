@@ -61,9 +61,9 @@ export default {
 
 <style scoped>
 .line-transform {
-  transform: translate(-25px, -50%);
+  transform: translate(-5px, -50%);
 }
 #photo {
-  background-image: url('~assets/images/emilsgulbis.jpg');
+  background-image: url('~assets/images/mosharaf.jpg');
 }
 </style>

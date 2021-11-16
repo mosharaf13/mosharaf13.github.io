@@ -7,33 +7,23 @@
       <dl class="mb-4">
         <dt class="font-bold">Email</dt>
         <dd>
-          <a href="mailto:emils.gulbis@gmail.com">emils.gulbis@gmail.com</a>
+          <a href="mailto:emils.gulbis@gmail.com">mosharafkuet@gmail.com</a>
         </dd>
       </dl>
 
       <dl class="mb-4">
         <dt class="font-bold">Phone</dt>
-        <dd><a href="tel:+37120303056">+371 20 30 30 56</a></dd>
+        <dd><a href="tel:+8801753773427">+880 1753 77 34 27</a></dd>
       </dl>
 
       <dl>
         <dt class="font-bold">Find me on</dt>
         <dd>
           <ul class="flex">
-            <li v-if="facebook" class="mr-4">
-              <a
-                href="https://www.facebook.com/emiils"
-                target="_blank"
-                rel="noopener"
-                aria-label="Find me on Facebook"
-              >
-                <facebook-icon class="svg-inline" />
-              </a>
-            </li>
 
             <li v-if="linkedin" class="mr-4">
               <a
-                href="https://www.linkedin.com/in/emilsgulbis/"
+                href=https://www.linkedin.com/in/mosharaf13/
                 target="_blank"
                 rel="noopener"
                 aria-label="Get to know be better via Linkedin"
@@ -56,7 +46,7 @@
             <li v-if="github" class="mr-4">
               <a
                 :href="github"
-                target="_blank"
+                target="https://github.com/mosharaf13"
                 rel="noopener"
                 aria-label="Discover my projects on Github"
               >
@@ -67,7 +57,7 @@
             <li v-if="stackoverflow" class="mr-4">
               <a
                 :href="stackoverflow"
-                target="_blank"
+                target="https://stackoverflow.com/users/6049005/mosharaf"
                 rel="noopener"
                 aria-label="See how I help people on Stackoverflow"
               >

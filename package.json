@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "Mosharaf13/Portfolio",
   "version": "1.0.0",
   "description": "FRONT-END.LV Portfolio",
   "author": "Emīls Gulbis",
@@ -9,6 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "deploy": "gh-pages -b master -d build",
     "test": "jest"
   },
   "dependencies": {
