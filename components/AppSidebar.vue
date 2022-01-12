@@ -7,7 +7,7 @@
       <dl class="mb-4">
         <dt class="font-bold">Email</dt>
         <dd>
-          <a href="mailto:emils.gulbis@gmail.com">mosharafkuet@gmail.com</a>
+          <a href="mailto:mosharafkuet@gmail.com">mosharafkuet@gmail.com</a>
         </dd>
       </dl>
 

@@ -3,7 +3,7 @@
     "name": "mosharaf13.github.io",
     "version": "1.0.0",
     "description": "FRONT-END.LV Portfolio",
-    "author": "Emīls Gulbis",
+    "author": "Md Mosharaf Hossan",
     "private": true,
     "scripts": {
         "predeploy": "npm run generate",

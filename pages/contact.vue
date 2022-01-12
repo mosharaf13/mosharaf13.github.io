@@ -32,8 +32,8 @@
       </form>
 
       <google-maps
-        :lat="56.484392"
-        :lng="21.017387"
+        :lat="23.8319"
+        :lng="90.4178"
         :zoom="4"
         class="h-300px"
       />
@@ -47,21 +47,21 @@
 
         <div class="p-6 shadow-lighter mb-8">
           <p class="font-bold mb-2">Email</p>
-          <a href="mailto:emils.gulbis@gmail.com" class="hover:underline"
-            >emils.gulbis@gmail.com</a
+          <a href="mosharafkuet@gmail.com" class="hover:underline"
+            >mosharafkuet@gmail.com</a
           >
         </div>
 
         <div class="p-6 mb-8">
           <p class="font-bold mb-2">Phone</p>
-          <a href="tel:+37120303056" class="hover:underline"
-            >+371 20 30 30 56</a
+          <a href="tel:+8801753773427" class="hover:underline"
+            >+880 17 53 77 34 27</a
           >
         </div>
 
         <div class="p-6">
-          <p class="font-bold mb-2">Addresss</p>
-          <p>Mirdzas Kempes 3, Liepaja, Latvia, LV-3407</p>
+          <p class="font-bold mb-2">Address</p>
+          <p>Nikunja 2, Khilkhet, Dhaka, Bangladesh</p>
         </div>
       </div>
     </div>
