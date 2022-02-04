@@ -16,8 +16,9 @@
     },
     "dependencies": {
         "@nuxtjs/svg": "^0.1.12",
+        "gh-pages": "^2.2.0",
         "nuxt": "^2.14.7",
-        "gh-pages": "^2.2.0"
+        "vue-pdf": "^4.3.0"
     },
     "devDependencies": {
         "@nuxtjs/tailwindcss": "^3.1.0",

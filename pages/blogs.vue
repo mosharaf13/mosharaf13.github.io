@@ -39,6 +39,14 @@ export default {
         {
           title: 'Early binding in PHP',
           description: 'Early binding allows using a class before its declaration in the same file. However, the precise behavior is rather arcane.'
+        },
+        {
+          title: 'Early binding in PHP',
+          description: 'Early binding allows using a class before its declaration in the same file. However, the precise behavior is rather arcane.'
+        },
+        {
+          title: 'Early binding in PHP',
+          description: 'Early binding allows using a class before its declaration in the same file. However, the precise behavior is rather arcane.'
         }
       ]
     }

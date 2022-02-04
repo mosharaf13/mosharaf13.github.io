@@ -1,3 +1,5 @@
 <template>
-  <div>resume</div>
+  <div>
+    Resume
+  </div>
 </template>

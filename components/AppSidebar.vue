@@ -1,8 +1,24 @@
 <template>
   <aside class="w-280px p-10 flex flex-col justify-between bg-blue text-white">
     <header class="mb-5">
-      <logo />
+      <logo/>
     </header>
+    <body>
+    <nav>
+      <ul>
+        <li v-for="link in links" :key="link.to" @click="isOpen = false">
+          <nuxt-link
+              :to="link.to"
+              :aria-lable="link.label"
+              class="relative uppercase text-sm text-white text-left font-bold px-4 py-2 block hover:border"
+              exact-active-class="border border-white-20"
+          >
+            {{ link.title }}
+          </nuxt-link>
+        </li>
+      </ul>
+    </nav>
+    </body>
     <footer>
       <dl class="mb-4">
         <dt class="font-bold">Email</dt>
@@ -23,45 +39,45 @@
 
             <li v-if="linkedin" class="mr-4">
               <a
-                href=https://www.linkedin.com/in/mosharaf13/
-                target="_blank"
-                rel="noopener"
-                aria-label="Get to know be better via Linkedin"
+                  href=https://www.linkedin.com/in/mosharaf13/
+ target="_blank"
+                  rel="noopener"
+                  aria-label="Get to know be better via Linkedin"
               >
-                <linkedin-icon class="svg-inline" />
+                <linkedin-icon class="svg-inline"/>
               </a>
             </li>
 
             <li v-if="twitter" class="mr-4">
               <a
-                :href="twitter"
-                target="_blank"
-                rel="noopener"
-                aria-label="Follow me on Twitter"
+                  :href="twitter"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Follow me on Twitter"
               >
-                <twitter-icon class="svg-inline" />
+                <twitter-icon class="svg-inline"/>
               </a>
             </li>
 
             <li v-if="github" class="mr-4">
               <a
-                :href="github"
-                target="https://github.com/mosharaf13"
-                rel="noopener"
-                aria-label="Discover my projects on Github"
+                  :href="github"
+                  target="https://github.com/mosharaf13"
+                  rel="noopener"
+                  aria-label="Discover my projects on Github"
               >
-                <github-icon class="svg-inline" />
+                <github-icon class="svg-inline"/>
               </a>
             </li>
 
             <li v-if="stackoverflow" class="mr-4">
               <a
-                :href="stackoverflow"
-                target="https://stackoverflow.com/users/6049005/mosharaf"
-                rel="noopener"
-                aria-label="See how I help people on Stackoverflow"
+                  :href="stackoverflow"
+                  target="https://stackoverflow.com/users/6049005/mosharaf"
+                  rel="noopener"
+                  aria-label="See how I help people on Stackoverflow"
               >
-                <stack-overflow-icon class="svg-inline" />
+                <stack-overflow-icon class="svg-inline"/>
               </a>
             </li>
           </ul>
@@ -78,13 +94,8 @@ import TwitterIcon from '~/assets/icons/twitter.svg?inline'
 import GithubIcon from '~/assets/icons/github.svg?inline'
 import StackOverflowIcon from '~/assets/icons/stackoverflow.svg?inline'
 
-import {
-  facebook,
-  linkedin,
-  twitter,
-  github,
-  stackoverflow
-} from '~/docs/social.json'
+import {facebook, github, linkedin, stackoverflow, twitter} from '~/docs/social.json'
+import { links } from '~/utils/lists'
 
 export default {
   components: {
@@ -101,7 +112,8 @@ export default {
       linkedin,
       twitter,
       github,
-      stackoverflow
+      stackoverflow,
+      links
     }
   }
 }

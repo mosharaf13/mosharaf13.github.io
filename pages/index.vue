@@ -64,6 +64,6 @@ export default {
   transform: translate(-5px, -50%);
 }
 #photo {
-  background-image: url('~assets/images/mosharaf.jpg');
+  background-image: url('~assets/images/mosharaf3.jpeg');
 }
 </style>

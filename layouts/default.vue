@@ -7,7 +7,6 @@
         :class="{ 'w-185px': expandSidebar }"
       ></div>
       <div class="relative">
-        <app-menu />
         <main>
           <nuxt />
         </main>
