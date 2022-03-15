@@ -80,6 +80,17 @@
                 <stack-overflow-icon class="svg-inline"/>
               </a>
             </li>
+
+            <li v-if="strava" class="mr-4">
+              <a
+                  :href="strava"
+                  target="https://www.strava.com/athletes/76022349"
+                  rel="noopener"
+                  aria-label="Take a look at my Strava profile"
+              >
+                <strava-icon class="svg-inline"/>
+              </a>
+            </li>
           </ul>
         </dd>
       </dl>
@@ -93,8 +104,9 @@ import LinkedinIcon from '~/assets/icons/linkedin.svg?inline'
 import TwitterIcon from '~/assets/icons/twitter.svg?inline'
 import GithubIcon from '~/assets/icons/github.svg?inline'
 import StackOverflowIcon from '~/assets/icons/stackoverflow.svg?inline'
+import StravaIcon from '~/assets/icons/strava.svg?inline'
 
-import {facebook, github, linkedin, stackoverflow, twitter} from '~/docs/social.json'
+import {facebook, github, linkedin, stackoverflow, twitter, strava} from '~/docs/social.json'
 import { links } from '~/utils/lists'
 
 export default {
@@ -103,7 +115,8 @@ export default {
     LinkedinIcon,
     TwitterIcon,
     GithubIcon,
-    StackOverflowIcon
+    StackOverflowIcon,
+    StravaIcon
   },
 
   data() {
@@ -113,7 +126,8 @@ export default {
       twitter,
       github,
       stackoverflow,
-      links
+      links,
+      strava
     }
   }
 }
