@@ -15,7 +15,7 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favico.png' }],
     bodyAttrs: {
-      class: 'bg-blue antialiased'
+      class: 'antialiased'
     },
   },
 

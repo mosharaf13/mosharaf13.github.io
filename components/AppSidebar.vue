@@ -1,9 +1,9 @@
 <template>
-  <aside class="w-280px p-10 flex flex-col justify-between bg-blue text-white">
+  <aside class="w-280px p-10 flex flex-col justify-between text-black">
     <header class="mb-5">
       <logo/>
     </header>
-    <body>
+    <body style="background-color: #F8F9FA">
     <nav>
       <ul>
         <li v-for="link in links" :key="link.to" @click="isOpen = false">

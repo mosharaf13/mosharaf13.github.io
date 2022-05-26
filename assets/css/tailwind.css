@@ -1,3 +1,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+/*@font-face {*/
+/*    font-family: 'Satisfy';*/
+/*    src: local('Satisfy'), url(./assets/fonts/Satisfy-Regular.ttf) format('ttf');*/
+/*}*/
+
+@layer base {
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Ubuntu:wght@400&display=swap');
+}
+

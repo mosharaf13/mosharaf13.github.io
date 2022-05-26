@@ -3,7 +3,7 @@
     <app-sidebar />
     <div class="p-10 flex-1 bg-white pb-12 relative">
       <div
-        class="w-0 absolute top-0 left-0 h-full bg-blue transition-width-250"
+        class="w-0 absolute top-0 left-0 h-full bg-whiteish transition-width-250"
         :class="{ 'w-185px': expandSidebar }"
       ></div>
       <div class="relative">

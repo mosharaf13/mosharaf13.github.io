@@ -13,7 +13,8 @@ module.exports = {
         },
 
         gray: '#566075',
-        blue: '#4c33fb'
+        blue: '#0ea5e9',
+        whiteish: '#F8F9FA'
       },
 
       spacing: {
@@ -30,7 +31,7 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: ['Nunito', 'sans-serif']
+        sans: ['Nunito', 'sans-serif', 'Satisfy', 'Ubuntu']
       },
 
       height: {

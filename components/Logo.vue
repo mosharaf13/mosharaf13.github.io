@@ -1,6 +1,6 @@
 <template>
   <div
-    class="logo relative inline-block uppercase text-white font-extrabold leading-none inline-block"
+    class="logo relative inline-block uppercase text-blue font-extrabold leading-none inline-block"
   >
     <strong class="block">fl/stck</strong>
     <small class="block leading-normal">developer</small>

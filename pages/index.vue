@@ -8,7 +8,7 @@
     </div>
     <div v-mouse-move class="flex-1 pl-8 pt-16">
       <h1
-          class="text-black uppercase font-extrabold text-4xl leading-none mb-5"
+          class="text-black font-bold text-5xl leading-none mb-5" style="font-family: Satisfy,serif"
       >
         {{ firstName }}
         <div class="relative">
@@ -27,14 +27,14 @@
       <div class="mt-4">
         <div class="mb-4">
           <div class="text-lg mb-4">Academic & Professional Interests</div>
-          <span v-for="interest in academicInterest" class="bg-green-700 text-white p-2 m-2 rounded-bl-xl">
+          <span v-for="interest in academicInterest" class="shadow-md p-2 m-2 rounded-bl-xl">
             {{ interest }}
           </span>
         </div>
 
         <div>
           <div class="text-lg mb-4">Other Interests</div>
-          <span v-for="interest in otherInterest" class="bg-green-700 text-white p-2 m-2 rounded-bl-xl">
+          <span v-for="interest in otherInterest" class="shadow-md p-2 m-2 rounded-bl-xl">
             {{ interest }}
           </span>
         </div>
@@ -43,7 +43,7 @@
 
       <div class="cv-button mt-16">
           <span class="flex ">
-             <a class="uppercase text-sm  text-white bg-blue text-left font-bold px-4 py-2 block hover:border"
+             <a class="uppercase text-sm rounded text-white bg-blue text-left font-bold px-4 py-2 block hover:border"
                 href="/Md%20Mosharaf%20Hossan.pdf">Download my CV</a>
           </span>
 
