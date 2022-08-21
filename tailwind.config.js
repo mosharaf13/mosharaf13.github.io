@@ -8,13 +8,13 @@ module.exports = {
         },
 
         black: {
-          default: '#2b303a',
+          default: '#222',
           '90': 'rgba(0, 0, 0, 0.9)'
         },
-
-        gray: '#566075',
+        blacktext: '#363636',
+        gray: '#F2F3EF',
         blue: '#0ea5e9',
-        whiteish: '#F8F9FA'
+        whiteish: '#f2f2f2'
       },
 
       spacing: {
@@ -31,7 +31,7 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: ['Nunito', 'sans-serif', 'Satisfy', 'Ubuntu']
+        sans: ['Nunito', 'sans-serif', 'Satisfy', 'Ubuntu', 'Oxygen']
       },
 
       height: {

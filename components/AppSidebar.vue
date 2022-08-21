@@ -3,7 +3,7 @@
     <header class="mb-5">
       <logo/>
     </header>
-    <body style="background-color: #F8F9FA">
+    <body style="background-color: #f2f2f2">
     <nav>
       <ul>
         <li v-for="link in links" :key="link.to" @click="isOpen = false">

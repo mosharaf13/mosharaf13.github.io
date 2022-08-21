@@ -10,3 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Ubuntu:wght@400&display=swap');
 }
 
+@layer base {
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+}
+
