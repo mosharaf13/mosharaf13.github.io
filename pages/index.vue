@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      <div class="flex justify-between link-section rounded-2xl p-4 mt-8" style="background-color: #f2f2f2">
+      <div class="flex justify-between link-section rounded-2xl mb-4 md:mb-0 p-4 mt-8" style="background-color: #f2f2f2">
         <div class="cv-button">
           <span class="flex">
              <a style="color: #06c"
