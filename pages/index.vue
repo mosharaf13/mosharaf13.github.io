@@ -1,32 +1,36 @@
 <template>
-  <div class="flex justify-center md:mt-32 w-11/12 m-auto">
+  <div class="flex flex-col md:flex-row md:justify-center md:mt-32 w-11/12 m-auto">
 
-    <div class="flex-1 pl-6 pr-6">
+    <div class="flex-1 pl-6 md:pr-6 mt-4 md:mt-0 text-left">
       <h1
-          class="text-black text-5xl leading-none mb-5" style="font-family: Satisfy,serif"
+          class="text-black text-3xl md:text-5xl leading-none mb-5" style="font-family: Satisfy,serif"
       >
         {{ firstName }}
           <span class="text-blue">{{ lastName }}</span>
       </h1>
-      <h2 class="mb-2 text-black text-xl font-mono">{{ position }}</h2>
+      <h2 class="mb-2 text-black text-base md:text-xl font-mono">{{ position }}</h2>
       <div>
-        <p class="leading-6 text-sm font-mono text-blacktext pr-6">
+        <p class="leading-6 text-xs md:text-sm font-mono text-blacktext pr-6 text-justify">
           {{ aboutMe }}
         </p>
       </div>
       <div class="mt-4">
         <div class="mb-4">
           <div class="mb-4 font-mono text-blacktext">Academic & Professional Interests</div>
-          <span v-for="interest in academicInterest" style="background-color: #0071e3" class="text-white text-xs p-2 m-2 rounded-xl font-mono">
-            {{ interest }}
-          </span>
+          <div class="flex flex-wrap">
+            <span v-for="interest in academicInterest" style="background-color: #0071e3" class="text-white text-xs py-1 px-4 m-2 rounded-xl font-mono">
+              {{ interest }}
+            </span>
+          </div>
         </div>
 
         <div>
           <div class="mb-4 font-mono text-blacktext">Other Interests</div>
-          <span v-for="interest in otherInterest" style="background-color: #0071e3" class="text-white text-xs p-2 m-2 rounded-xl font-mono">
-            {{ interest }}
-          </span>
+          <div class="flex flex-wrap">
+            <span v-for="interest in otherInterest" style="background-color: #0071e3" class="text-white text-xs py-1 px-4 m-2 rounded-xl font-mono">
+              {{ interest }}
+            </span>
+          </div>
         </div>
       </div>
 
@@ -152,7 +156,7 @@ export default {
       position,
       aboutMe,
       academicInterest: ['Distributed Systems', 'Computer Vision', 'Artificial Intelligence'],
-      otherInterest: ['Psychology', 'Bioinformatics', 'Badminton', 'Table Tennis', 'Formula 1'],
+      otherInterest: ['Psychology', 'Bioinformatics', 'Badminton', 'Table Tennis', 'Football'],
       publicPath: process.env.BASE_URL,
       facebook,
       linkedin,
