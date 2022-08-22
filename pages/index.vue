@@ -16,7 +16,7 @@
       </div>
       <div class="mt-4">
         <div class="mb-4">
-          <div class="mb-2 font-mono text-blacktext">Academic & Professional Interests</div>
+          <div class="font-mono text-blacktext">Academic & Professional Interests</div>
           <div class="flex flex-wrap">
             <span v-for="interest in academicInterest" style="background-color: #0071e3" class="text-white text-xs py-1 px-4 m-2 rounded-xl font-mono">
               {{ interest }}
@@ -25,7 +25,7 @@
         </div>
 
         <div>
-          <div class="mb-2 font-mono text-blacktext">Other Interests</div>
+          <div class="font-mono text-blacktext">Other Interests</div>
           <div class="flex flex-wrap">
             <span v-for="interest in otherInterest" style="background-color: #0071e3" class="text-white text-xs py-1 px-4 m-2 rounded-xl font-mono">
               {{ interest }}
