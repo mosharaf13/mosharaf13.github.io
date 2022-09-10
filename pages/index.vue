@@ -11,7 +11,7 @@
       </h1>
 <!--      <h2 class="mb-2 text-black text-base md:text-2xl font-mono" style="font-family: Nunito,serif">{{ position }}</h2>-->
       <div>
-        <p class="leading-7 text-xs md:text-lg font-mono text-blacktext pr-6 mb-4" style="font-family: Nunito,serif">
+        <p class="leading-7 text-xs md:text-lg font-mono font-bold text-blacktext pr-6 mb-4" style="font-family: Nunito,serif">
           {{ intro }}
         </p>
         <p class="leading-7 text-xs md:text-lg font-mono text-blacktext pr-6 mb-4" style="font-family: Nunito,serif">
