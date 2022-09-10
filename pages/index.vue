@@ -3,20 +3,27 @@
 
     <div class="flex-1 pl-6 md:pr-6 mt-4 md:mt-0 text-left">
       <h1
-          class="text-black text-3xl md:text-5xl leading-none mb-5" style="font-family: Satisfy,serif"
+          class="text-black text-base md:text-base leading-none mb-5 	" style="font-family: Nunito,serif; letter-spacing: 0.25em"
       >
-        {{ firstName }}
-          <span class="text-blue">{{ lastName }}</span>
+        ABOUT ME
+<!--        {{ firstName }}-->
+<!--          <span>{{ lastName }}</span>-->
       </h1>
-      <h2 class="mb-2 text-black text-base md:text-xl font-mono">{{ position }}</h2>
+<!--      <h2 class="mb-2 text-black text-base md:text-2xl font-mono" style="font-family: Nunito,serif">{{ position }}</h2>-->
       <div>
-        <p class="leading-6 text-xs md:text-sm font-mono text-blacktext pr-6 text-justify">
+        <p class="leading-7 text-xs md:text-lg font-mono text-blacktext pr-6 mb-4" style="font-family: Nunito,serif">
+          {{ intro }}
+        </p>
+        <p class="leading-7 text-xs md:text-lg font-mono text-blacktext pr-6 mb-4" style="font-family: Nunito,serif">
           {{ aboutMe }}
+        </p>
+        <p class="leading-7 text-xs md:text-lg font-mono text-blacktext pr-6" style="font-family: Nunito,serif">
+          {{ outro }}
         </p>
       </div>
       <div class="mt-4">
         <div class="mb-4">
-          <div class="font-mono text-blacktext">Academic & Professional Interests</div>
+          <div class="font-mono text-blacktext text-base">Academic & Professional Interests</div>
           <div class="flex flex-wrap">
             <span v-for="interest in academicInterest" style="background-color: #0071e3" class="text-white text-xs py-1 px-4 m-2 rounded-xl font-mono">
               {{ interest }}
@@ -25,7 +32,7 @@
         </div>
 
         <div>
-          <div class="font-mono text-blacktext">Other Interests</div>
+          <div class="font-mono text-blacktext text-base">Other Interests</div>
           <div class="flex flex-wrap">
             <span v-for="interest in otherInterest" style="background-color: #0071e3" class="text-white text-xs py-1 px-4 m-2 rounded-xl font-mono">
               {{ interest }}
@@ -125,7 +132,7 @@
 <script>
 import {getAge} from '~/utils/functions'
 import {mouseMove} from '~/utils/directives'
-import {aboutMe, birthday, firstName, lastName, position} from '~/docs/profile.json'
+import {aboutMe, birthday, firstName, lastName, position, intro, outro} from '~/docs/profile.json'
 import FacebookIcon from '~/assets/icons/facebook.svg?inline'
 import LinkedinIcon from '~/assets/icons/linkedin.svg?inline'
 import TwitterIcon from '~/assets/icons/twitter.svg?inline'
@@ -155,6 +162,8 @@ export default {
       lastName,
       position,
       aboutMe,
+      intro,
+      outro,
       academicInterest: ['Distributed Systems', 'Computer Vision', 'Artificial Intelligence'],
       otherInterest: ['Psychology', 'Bioinformatics', 'Badminton', 'Table Tennis', 'Football'],
       publicPath: process.env.BASE_URL,

@@ -10,5 +10,7 @@
   },
   "position": "Senior Software Engineer",
   "birthday": "1996/12/17",
-  "aboutMe": "Hi! I am Mosharaf, but you’ll mostly meet me as mosharaf13 on the internet. I’m a senior software engineer at Sigma Solutions Ltd.\n\n\n Over the last 4 years, I have been working on various types of consumer and business-facing projects using Laravel and VueJs. I had the chance to develop some exciting projects such as a GPS based vehicle tracking system, a digital content marketplace, and a management tool for construction farms.\n\nAt my current workplace, we are currently developing projects that aim to automate operational and troubleshooting processes of telecom companies.\n\nI graduated from Khulna University of Engineering & Technology in Computer Science and Engineering in 2018."
+  "intro": "Hi! I am Md Mosharaf Hossan, but you’ll mostly meet me as mosharaf13 on the internet. I’m a senior software engineer at Sigma Solutions Ltd.",
+  "aboutMe": "I graduated from Khulna University of Engineering & Technology in Computer Science and Engineering in 2018. Over the last 4 years, I have been working on various types of consumer and business-facing projects using Laravel and VueJs. I had the chance to develop some exciting projects such as a GPS based vehicle tracking system, a digital content marketplace, and a management tool for construction farms.",
+  "outro": "At my current workplace, we are currently developing projects that aim to automate operational and troubleshooting processes of telecom companies."
 }
