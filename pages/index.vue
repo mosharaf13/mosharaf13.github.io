@@ -22,8 +22,8 @@
         </p>
       </div>
       <div class="mt-4">
-        <div class="mb-4">
-          <div class="font-mono text-blacktext text-base">Academic & Professional Interests</div>
+        <div class="mb-4" style="font-family: Nunito,serif">
+          <div class="font-mono text-blacktext text-base" >Academic & Professional Interests</div>
           <div class="flex flex-wrap">
             <span v-for="interest in academicInterest" style="background-color: #0071e3" class="text-white text-xs py-1 px-4 m-2 rounded-xl font-mono">
               {{ interest }}
@@ -31,7 +31,7 @@
           </div>
         </div>
 
-        <div>
+        <div style="font-family: Nunito,serif">
           <div class="font-mono text-blacktext text-base">Other Interests</div>
           <div class="flex flex-wrap">
             <span v-for="interest in otherInterest" style="background-color: #0071e3" class="text-white text-xs py-1 px-4 m-2 rounded-xl font-mono">
@@ -42,7 +42,7 @@
       </div>
 
       <div class="flex justify-between link-section rounded-2xl mb-4 md:mb-0 p-4 mt-8" style="background-color: #f2f2f2">
-        <div class="cv-button">
+        <div class="cv-button" style="font-family: Nunito,serif">
           <span class="flex">
              <a style="color: #06c"
                 href="/Md%20Mosharaf%20Hossan.pdf">Download my CV</a>
