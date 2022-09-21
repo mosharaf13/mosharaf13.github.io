@@ -3,7 +3,7 @@
 
     <div class="flex-1 pl-6 md:pr-6 mt-4 md:mt-0 text-left">
       <h1
-          class="text-black text-base md:text-base leading-none mb-5 	" style="font-family: Nunito,serif; letter-spacing: 0.25em"
+          class="text-black text-sm md:text-base leading-none mb-5 	" style="font-family: Nunito,serif; letter-spacing: 0.25em"
       >
         ABOUT ME
 <!--        {{ firstName }}-->
