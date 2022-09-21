@@ -11,13 +11,13 @@
       </h1>
 <!--      <h2 class="mb-2 text-black text-base md:text-2xl font-mono" style="font-family: Nunito,serif">{{ position }}</h2>-->
       <div>
-        <p class="leading-7 text-xs md:text-lg font-mono font-bold text-blacktext pr-6 mb-4" style="font-family: Nunito,serif">
+        <p class="leading-7 text-xs md:text-base font-mono font-bold text-blacktext pr-6 mb-4" style="font-family: Nunito,serif">
           {{ intro }}
         </p>
-        <p class="leading-7 text-xs md:text-lg font-mono text-blacktext pr-6 mb-4" style="font-family: Nunito,serif">
+        <p class="leading-7 text-xs md:text-base font-mono text-blacktext pr-6 mb-4" style="font-family: Nunito,serif">
           {{ aboutMe }}
         </p>
-        <p class="leading-7 text-xs md:text-lg font-mono text-blacktext pr-6" style="font-family: Nunito,serif">
+        <p class="leading-7 text-xs md:text-base font-mono text-blacktext pr-6" style="font-family: Nunito,serif">
           {{ outro }}
         </p>
       </div>
@@ -139,7 +139,7 @@ import TwitterIcon from '~/assets/icons/twitter.svg?inline'
 import GithubIcon from '~/assets/icons/github.svg?inline'
 import StackOverflowIcon from '~/assets/icons/stackoverflow.svg?inline'
 import StravaIcon from '~/assets/icons/strava.svg?inline'
-import {facebook, github, linkedin, stackoverflow, twitter, strava} from '~/docs/social.json'
+import {facebook, github, linkedin, stackoverflow, strava} from '~/docs/social.json'
 import { links } from '~/utils/lists'
 
 export default {
@@ -169,7 +169,6 @@ export default {
       publicPath: process.env.BASE_URL,
       facebook,
       linkedin,
-      twitter,
       github,
       stackoverflow,
       links,
