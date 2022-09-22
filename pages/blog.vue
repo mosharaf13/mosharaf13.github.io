@@ -1,22 +1,24 @@
 <template>
-
-  <div class="flex flex-col md:flex-row">
-    <div class="flex flex-col justify-center w-1/2 ml-8">
-      <div class="sub-title text-lg mb-4 " style="font-family: Nunito,serif; letter-spacing: 0.3em">
-        MEMOIRE DE
+  <div class="wrapper">
+    <Navbar/>
+    <div class="flex flex-col md:flex-row">
+      <div class="flex flex-col justify-center w-1/2 ml-8">
+        <div class="sub-title text-lg mb-4 " style="font-family: Nunito,serif; letter-spacing: 0.3em">
+          MEMOIRE DE
+        </div>
+        <div class="title " style="font-family: Nunito,serif; font-size: 2.5rem; letter-spacing: 0.5em">
+          NEPAL
+        </div>
+        <div class="description w-2/3 mt-4">
+          Experiencing mother nature's awe-inspiring beauty, the hospitality of Nepalese people, and feeling the power of persistence made the trip worthwhile.
+        </div>
       </div>
-      <div class="title " style="font-family: Nunito,serif; font-size: 2.5rem; letter-spacing: 0.5em">
-        NEPAL
+      <div class="w-1/2 h-screen">
+        <div
+            id="photo"
+            class="bg-white bg-cover bg-top bg-no-repeat w-full h-full"
+        ></div>
       </div>
-      <div class="description w-2/3 mt-4">
-        Experiencing mother nature's awe-inspiring beauty, the hospitality of Nepalese people, and feeling the power of persistence made the trip worthwhile.
-      </div>
-    </div>
-    <div class="w-1/2 h-screen">
-      <div
-          id="photo"
-          class="bg-white bg-cover bg-top bg-no-repeat w-full h-full"
-      ></div>
     </div>
   </div>
 </template>
