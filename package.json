@@ -18,11 +18,11 @@
         "@nuxtjs/svg": "^0.1.12",
         "gh-pages": "^2.2.0",
         "nuxt": "^2.14.7",
+        "sass": "^1.77.6",
         "vue-pdf": "^4.3.0"
     },
     "devDependencies": {
         "@nuxtjs/tailwindcss": "^3.1.0",
-        "node-sass": "^4.14.1",
         "nuxt-webfontloader": "^1.1.0",
         "push-dir": "^0.4.1",
         "sass-loader": "^10.0.3"
