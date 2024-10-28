@@ -48,7 +48,7 @@
           <span class="flex">
              <a style="color: #06c"
                 href="/Resume%20of%20Md%20Mosharaf%20Hossan.pdf">Academic CV</a>
-              <a style="color: #06c; margin-left: 3px"
+              <a style="color: #06c; margin-left: 10px"
                 href="/Professional%20Resume%20Md%20Mosharaf%20Hossan.pdf">Professional CV</a>
           </span>
           </div>
