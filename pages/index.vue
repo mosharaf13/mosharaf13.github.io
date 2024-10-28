@@ -47,7 +47,9 @@
           <div class="cv-button" style="font-family: Nunito,serif">
           <span class="flex">
              <a style="color: #06c"
-                href="/Md%20Mosharaf%20Hossan.pdf">Download my CV</a>
+                href="/Resume%20of%20Md%20Mosharaf%20Hossan.pdf">Academic CV</a>
+              <a style="color: #06c; margin-left: 3px"
+                href="/Professional%20Resume%20Md%20Mosharaf%20Hossan.pdf">Professional CV</a>
           </span>
           </div>
           <div>
