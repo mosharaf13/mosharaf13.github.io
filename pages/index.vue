@@ -2,7 +2,12 @@
   <div class="wrapper">
     <Navbar/>
     <div class="flex flex-col md:flex-row md:justify-center md:mt-32 w-11/12 m-auto">
-
+      <div class="w-1/4">
+        <div
+            id="photo"
+            class="bg-start bg-white bg-contain bg-no-repeat w-full h-full"
+        ></div>
+      </div>
       <div class="flex-1 pl-6 md:pr-6 mt-4 md:mt-0 text-left">
         <h1
             class="text-black text-sm md:text-sm leading-none mb-5 	" style="font-family: Nunito,serif; letter-spacing: 0.25em"
@@ -25,7 +30,7 @@
         </div>
         <div class="mt-4">
           <div class="mb-4" style="font-family: Nunito,serif">
-            <div class="font-mono text-blacktext text-base" >Academic & Professional Interests</div>
+            <div class="font-mono text-blacktext text-sm" >Academic & Professional Interests</div>
             <div class="flex flex-wrap">
             <span v-for="interest in academicInterest" style="background-color: #0071e3" class="text-white text-xs py-1 px-4 m-2 rounded-xl font-mono">
               {{ interest }}
@@ -34,7 +39,7 @@
           </div>
 
           <div style="font-family: Nunito,serif">
-            <div class="font-mono text-blacktext text-base">Other Interests</div>
+            <div class="font-mono text-blacktext text-sm">Other Interests</div>
             <div class="flex flex-wrap">
             <span v-for="interest in otherInterest" style="background-color: #0071e3" class="text-white text-xs py-1 px-4 m-2 rounded-xl font-mono">
               {{ interest }}
@@ -55,7 +60,16 @@
           <div>
             <dd>
               <ul class="flex">
-
+                <li v-if="googlescholar" class="mr-4">
+                  <a
+                      :href="googlescholar"
+                      target="https://scholar.google.com/citations?user=lQbXV_8AAAAJ&hl=en&oi=ao"
+                      rel="noopener"
+                      aria-label="Take a look at my Google Scholar profile"
+                  >
+                    <google-scholar-icon class="svg-inline"/>
+                  </a>
+                </li>
                 <li v-if="linkedin" class="mr-4">
                   <a
                       href=https://www.linkedin.com/in/mosharaf13/ target="_blank"
@@ -109,6 +123,7 @@
                     <strava-icon class="svg-inline"/>
                   </a>
                 </li>
+
                 <!--              <li v-if="facebook" class="mr-4">-->
                 <!--                <a-->
                 <!--                    :href="facebook"-->
@@ -123,13 +138,17 @@
 
           </div>
         </div>
+        <div style="font-family: Nunito,serif" class="m-4">
+            <div class="font-mono text-blacktext text-base mb-4">Selected Publications</div>
+            <div class="flex flex-col">
+              <div v-for="publication in publications" class="mb-4">
+                <span style="background-color: #0071e3" class="text-white text-xs py-1 px-2 mr-2 rounded-md font-mono">></span>
+                <span class="text-sm">{{ publication }} </span>
+              </div>
+            </div>
+          </div>
       </div>
-      <div class="w-2/4">
-        <div
-            id="photo"
-            class="bg-center bg-white bg-contain bg-no-repeat w-full h-full"
-        ></div>
-      </div>
+
     </div>
   </div>
 </template>
@@ -144,7 +163,8 @@ import TwitterIcon from '~/assets/icons/twitter.svg?inline'
 import GithubIcon from '~/assets/icons/github.svg?inline'
 import StackOverflowIcon from '~/assets/icons/stackoverflow.svg?inline'
 import StravaIcon from '~/assets/icons/strava.svg?inline'
-import {facebook, github, linkedin, stackoverflow, strava} from '~/docs/social.json'
+import GoogleScholarIcon from '~/assets/icons/blue-google-scholar.svg?inline'
+import {facebook, github, linkedin, stackoverflow, strava, googlescholar} from '~/docs/social.json'
 import { links } from '~/utils/lists'
 import Navbar from "../components/Navbar";
 
@@ -156,7 +176,8 @@ export default {
     TwitterIcon,
     GithubIcon,
     StackOverflowIcon,
-    StravaIcon
+    StravaIcon,
+    GoogleScholarIcon
   },
 
   directives: {
@@ -173,13 +194,33 @@ export default {
       outro,
       academicInterest: ['Software Engineering', 'Human-Computer Interaction', 'Computer Vision', 'Machine Learning'],
       otherInterest: ['Psychology', 'Bioinformatics', 'Badminton', 'Tennis', 'Table Tennis', 'Football'],
+
+      publications: [
+        `[MSR, 25] Costain Nachuma, Md Mosharaf Hossan, Asif Kamal Turzo, Minhaz F. Zibran (2025).
+          Decoding Dependency Risks: A Quantitative Study of Vulnerabilities in the Maven Ecosystem.
+          Accepted for publication in 22nd international conference on mining software repositories (MSR).`,
+
+          `[IoTaIS, 24] Md Mosharaf Hossan, Mostafa M. Fouda, Farjana Z. Eishita (2024). Adaptive Game
+            Design Using Machine Learning Techniques: A Survey. In The 2024 IEEE International
+            Conference on Internet of Things and Intelligence System (IoTaIS), pages 144-150, IEEE, 2024,
+            Location. DOI: 10.1109/IoTaIS64014.2024.10799330`,
+
+            `[IETC, 24] Rifat Ara Tasnim, Md Mosharaf Hossan, Farjana Z. Eishita (2024). Analyzing
+            Differential Impact of Text-Based Instructions in Video Games. In 2024 Intermountain
+            Engineering, Technology and Computing (IETC), pages 227-232, IEEE, 2024, Location. DOI:
+            10.1109/IETC61393.2024.10564249`,
+
+            `Md Mosharaf Hossan, Rifat Ara Tasnim, Farjana Z. Eishita (2024). Can You Keep Calm?:
+              Interactive Gameplay with Heart Rate as the Controller. (Under Review)`
+      ],
       publicPath: process.env.BASE_URL,
       facebook,
       linkedin,
       github,
       stackoverflow,
       links,
-      strava
+      strava,
+      googlescholar
     }
   },
 
@@ -201,6 +242,6 @@ export default {
 }
 
 #photo {
-  background-image: url('~assets/images/mosharaf4.jpg');
+  background-image: url('~assets/images/mosharaf5.jpg');
 }
 </style>
