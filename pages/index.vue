@@ -2,14 +2,14 @@
   <div class="wrapper">
     <Navbar/>
     <div class="flex flex-col md:flex-row w-full mx-auto max-w-7xl">
-      <div class="w-full md:w-4/12 mb-4 md:mb-0 md:mt-24">
+      <div class="w-full md:w-4/12 mb-4 md:mb-0 md:mt-24 md:pl-8">
         <div
             id="photo"
-            class="bg-start bg-white bg-contain bg-no-repeat w-9/12 mx-auto aspect-square md:aspect-auto rounded-lg shadow-sm"
+            class="bg-start bg-white bg-contain bg-no-repeat w-11/12 mx-auto aspect-square md:aspect-auto rounded-lg shadow-sm"
             style="height: 600px"
         ></div>
       </div>
-      <div class="flex-1 px-4 md:px-6 lg:px-8 md:mt-24">
+      <div class="flex-1 md:mt-24 md:pr-16">
         <h1
             class="text-black text-base md:text-lg leading-tight mb-6 tracking-wider" style="font-family: Nunito,serif"
         >
