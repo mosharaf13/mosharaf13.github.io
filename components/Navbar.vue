@@ -1,12 +1,11 @@
 <template>
-  <nav class="absolute top-0 w-11/12 m-auto flex flex-col text-center sm:flex-row sm:text-left sm:justify-start py-4 px-6 sm:items-baseline w-full"
-       style="font-family: Nunito,serif">
-    <div class="flex flex-col md:flex-row md:justify-start md:mt-3 w-11/12 m-auto">
+  <nav class="absolute top-0 w-full flex text-center flex-row justify-start py-4 px-6 items-baseline"
+      style="font-family: Nunito,serif">
+    <div class="flex flex-row justify-start mt-3 w-full">
       <NuxtLink class="text-sm no-underline text-grey hover:text-blue-dark ml-3" to="/">About</NuxtLink>
       <NuxtLink class="text-sm no-underline text-grey hover:text-blue-dark ml-3" to="/blog">Blogs</NuxtLink>
     </div>
   </nav>
-
 </template>
 <style>
    .nuxt-link-exact-active {
