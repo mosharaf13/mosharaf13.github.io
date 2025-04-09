@@ -257,23 +257,27 @@ export default {
           link: 'https://doi.org/10.1109/IETC61393.2024.10564249'
         },
         {
-          id: 'C.4',
-          title: 'Can You Keep Calm?: Adaptive Gameplay using Heart Rate as a Controller',
-          authors: ['Md Mosharaf Hossan', 'Rifat Ara Tasnim', 'Farjana Z. Eishita'],
-          year: '2025',
-          status: 'Under Review'
-        },
-        {
           id: 'C.5',
+          conference: 'IETC, 25',
           title: 'Gamified Virtual Reality Exposure Therapy for Mysophobia: Evaluating the Efficacy of a Simulated Sneeze Intervention',
           authors: ['Md Mosharaf Hossan', 'Rifat Ara Tasnim', 'Farjana Z. Eishita'],
+          venue: '2025 Intermountain Engineering, Technology and Computing (IETC)',
           year: '2025',
-          status: 'Under Review'
+          status: 'Accepted'
         },
         {
           id: 'C.6',
+          conference: 'IETC, 25',
           title: 'Analyzing the User Experience of Google Drive Storage Management with Alert Notification',
           authors: ['Aney Rani Paul', 'Md Mosharaf Hossan', 'Farjana Z. Eishita'],
+          venue: '2025 Intermountain Engineering, Technology and Computing (IETC)',
+          year: '2025',
+          status: 'Accepted'
+        },
+        {
+          id: 'C.4',
+          title: 'Can You Keep Calm?: Adaptive Gameplay using Heart Rate as a Controller',
+          authors: ['Md Mosharaf Hossan', 'Rifat Ara Tasnim', 'Farjana Z. Eishita'],
           year: '2025',
           status: 'Under Review'
         }
