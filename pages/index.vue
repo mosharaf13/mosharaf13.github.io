@@ -223,7 +223,7 @@ export default {
 
       publications: [
         {
-          id: 'C.1',
+          id: '1',
           conference: 'MSR, 25',
           title: 'Decoding Dependency Risks: A Quantitative Study of Vulnerabilities in the Maven Ecosystem',
           authors: ['Costain Nachuma', 'Md Mosharaf Hossan', 'Asif Kamal Turzo', 'Minhaz F. Zibran'],
@@ -233,7 +233,7 @@ export default {
           link: 'https://2025.msrconf.org/details/msr-2025-mining-challenge/8/Decoding-Dependency-Risks-A-Quantitative-Study-of-Vulnerabilities-in-the-Maven-Ecosy'
         },
         {
-          id: 'C.2',
+          id: '2',
           conference: 'IoTaIS, 24',
           title: 'Adaptive Game Design Using Machine Learning Techniques: A Survey',
           authors: ['Md Mosharaf Hossan', 'Mostafa M. Fouda', 'Farjana Z. Eishita'],
@@ -245,7 +245,7 @@ export default {
           link: 'https://doi.org/10.1109/IoTaIS64014.2024.10799330'
         },
         {
-          id: 'C.3',
+          id: '3',
           conference: 'IETC, 24',
           title: 'Analyzing Differential Impact of Text-Based Instructions in Video Games',
           authors: ['Rifat Ara Tasnim', 'Md Mosharaf Hossan', 'Farjana Z. Eishita'],
@@ -257,7 +257,7 @@ export default {
           link: 'https://doi.org/10.1109/IETC61393.2024.10564249'
         },
         {
-          id: 'C.5',
+          id: '4',
           conference: 'IETC, 25',
           title: 'Gamified Virtual Reality Exposure Therapy for Mysophobia: Evaluating the Efficacy of a Simulated Sneeze Intervention',
           authors: ['Md Mosharaf Hossan', 'Rifat Ara Tasnim', 'Farjana Z. Eishita'],
@@ -266,7 +266,7 @@ export default {
           status: 'Accepted'
         },
         {
-          id: 'C.6',
+          id: '5',
           conference: 'IETC, 25',
           title: 'Analyzing the User Experience of Google Drive Storage Management with Alert Notification',
           authors: ['Aney Rani Paul', 'Md Mosharaf Hossan', 'Farjana Z. Eishita'],
@@ -275,7 +275,7 @@ export default {
           status: 'Accepted'
         },
         {
-          id: 'C.4',
+          id: '6',
           title: 'Can You Keep Calm?: Adaptive Gameplay using Heart Rate as a Controller',
           authors: ['Md Mosharaf Hossan', 'Rifat Ara Tasnim', 'Farjana Z. Eishita'],
           year: '2025',
