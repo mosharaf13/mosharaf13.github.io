@@ -83,7 +83,7 @@
                   </a>
                 </li>
 
-                <li v-if="twitter" class="mr-4">
+                <!-- <li v-if="twitter" class="mr-4">
                   <a
                       :href="twitter"
                       target="_blank"
@@ -92,7 +92,7 @@
                   >
                     <twitter-icon class="svg-inline"/>
                   </a>
-                </li>
+                </li> -->
 
                 <li v-if="github" class="mr-4">
                   <a
@@ -248,7 +248,7 @@ export default {
           venue: '2025 Intermountain Engineering, Technology and Computing (IETC)',
           year: '2025',
           status: 'Accepted'
-        }
+        },
         {
           id: '4',
           conference: 'MSR, 25',
