@@ -54,10 +54,10 @@
             <span class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
               <a style="color: #06c"
                 class="hover:underline"
-                href="/Resume%20of%20Md%20Mosharaf%20Hossan.pdf">Academic CV</a>
+                href="CV_Hossan.pdf">Academic CV</a>
               <a style="color: #06c"
                 class="hover:underline"
-                href="/Professional%20Resume%20of%20Md%20Mosharaf%20Hossan.pdf">Professional CV</a>
+                href="Resume_Hossan.pdf">Professional CV</a>
             </span>
           </div>
           <div>
