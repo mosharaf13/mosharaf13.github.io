@@ -218,7 +218,7 @@ export default {
       aboutMe,
       intro,
       outro,
-      academicInterest: ['Software Engineering', 'Human-Computer Interaction', 'Computer Vision', 'Machine Learning'],
+      academicInterest: ['Software Engineering', 'Human-Computer Interaction', 'Virtual Reality'],
       otherInterest: ['Psychology', 'Bioinformatics', 'Badminton', 'Tennis', 'Table Tennis', 'Football'],
 
       publications: [
