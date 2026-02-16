@@ -19,13 +19,13 @@
         </h1>
         <!--      <h2 class="mb-2 text-black text-base md:text-2xl font-mono" style="font-family: Nunito,serif">{{ position }}</h2>-->
         <div>
-          <p class="leading-relaxed text-sm md:text-base font-mono font-bold text-blacktext mb-4" style="font-family: Nunito,serif">
+          <p class="whitespace-pre-line leading-relaxed text-sm md:text-base font-mono font-bold text-blacktext" style="font-family: Nunito,serif">
             {{ intro }}
           </p>
-          <p class="leading-relaxed text-sm md:text-base font-mono text-blacktext mb-4" style="font-family: Nunito,serif">
+          <p class="whitespace-pre-line leading-relaxed text-sm md:text-base font-mono text-blacktext" style="font-family: Nunito,serif">
             {{ aboutMe }}
           </p>
-          <p class="leading-relaxed text-sm md:text-base font-mono text-blacktext" style="font-family: Nunito,serif">
+          <p class="whitespace-pre-line leading-relaxed text-sm md:text-base font-mono text-blacktext" style="font-family: Nunito,serif">
             {{ outro }}
           </p>
         </div>
